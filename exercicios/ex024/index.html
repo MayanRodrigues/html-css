@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <style>
+        div#fora{
+            height: 96vh;
+            background-color: blueviolet;
+        }
+
+        div#dentro{
+            height: 200px;
+            width: 300px;
+            background-color: yellow;
+        }
+
+        div#fora{
+            position: relative;
+        }
+
+        div#dentro{
+            position: absolute;
+            
+            left: 50%;
+            top: 50%;
+        }
+
+        div#dentro{
+
+            transform: translate(-50%, -50%);
+
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personalização dos fundos</title>
+</head>
+<body>
+    <div id="fora">
+        <div id="dentro"></div>
+    </div>
+</body>
+</html>
